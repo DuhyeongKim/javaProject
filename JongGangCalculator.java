@@ -12,7 +12,7 @@ public class JongGangCalculator{
  * 
  */
     int currentDate;
-    int jongGangDate;
+    private int jongGangDate;
     int countDays;
 /**
 * This is a main method. using String argument to take input value.
