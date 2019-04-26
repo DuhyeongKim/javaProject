@@ -31,7 +31,13 @@ public class JongGangCalculator{
 /**
  * this method return the due date until the end of this semester
  * and make the output of the due date.
- */
+ */ 
+    public viod setter(int currentDate){
+        this.currentDate = currentDate;
+        
+    
+    }
+    
     public int countDays(int jgDate, int curDate){
         countDays = jgDate - curDate;
         return countDays;
