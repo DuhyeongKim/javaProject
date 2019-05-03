@@ -20,7 +20,7 @@ public class JongGangCalculator{
  */
     static public void main(String[] args){
         JongGangCalculator jgCalc = new JongGangCalculator();
-        System.out.println("The end date :" + args[0]);
+        System.out.println("The date :" + args[0]);
         System.out.println("The end date :" + args[1]);
 
         jgCalc.countDays(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
@@ -28,10 +28,7 @@ public class JongGangCalculator{
 
 
     }
-/**
- * this method return the due date until the end of this semester
- * and make the output of the due date.
- */ 
+
     public viod setter(int currentDate){
         this.currentDate = currentDate;
         
